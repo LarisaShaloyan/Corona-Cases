@@ -1,0 +1,58 @@
+.safety .section-text { margin-block-end: 55px; }
+
+.safety { text-align: center; }
+
+.safety-list {
+    display: grid;
+    gap: 50px;
+}
+
+.safety-item { position: relative; }
+
+.safety-item .item-banner {
+    max-width: max-content;
+    border-radius: var(--radius-circle);
+    margin-inline: auto;
+    margin-block-end: 20px;
+}
+
+.safety-item .number {
+    position: absolute;
+    top: -21px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--caribbean-green);
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: var(--radius-circle);
+    border: 3px solid var(--oxford-blue);
+    font-weight: var(--fw-700);
+}
+.safety .section-text {
+    margin-block-end: 80px;
+}
+
+
+.safety-list {
+    grid-template-columns: repeat(4, 1fr);
+}
+.safety-list {
+    grid-template-columns: repeat(3, 1fr);
+}
+.service-card {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+    padding: 30px;
+}
+
+.service-card .card-banner {
+    flex-shrink: 0;
+}
+
+.service-card .card-title {
+    margin-block: 0 10px;
+}
